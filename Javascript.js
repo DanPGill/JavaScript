@@ -29,3 +29,19 @@ return name
 };
 console.log(noFirstLetterJ("John"));
 console.log(noFirstLetterJ("Daniel"));
+function noFirstLetterJR(name){
+var noFirst = name.substr(1);
+var noLastTwo = name.slice(0,-2);
+if(name.charAt(0) == "J"){
+return noFirst;
+}
+else if(name.charAt(0) == "R"){
+return noLastTwo;
+}
+else {
+return name
+}
+};
+console.log(noFirstLetterJR("John"));
+console.log(noFirstLetterJR("Daniel"));
+console.log(noFirstLetterJR("Richard"));
