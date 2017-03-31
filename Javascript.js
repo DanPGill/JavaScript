@@ -5,3 +5,7 @@ function firstNamelastName(firstName, lastName){
 	console.log(firstName + " " + lastName);
 }
 firstNamelastName("Daniel", "Gill");
+function lastNameFirstName(firstName, lastName){
+console.log(lastName + ", " + firstName);
+}
+lastNameFirstName("Richard", "Gill");
