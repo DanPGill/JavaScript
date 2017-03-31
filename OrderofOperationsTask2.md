@@ -7,6 +7,6 @@ Order of Operations Task 2
 "hello"
 // = > "hello"
 "hello".substring(0, 3)
-// = > "elo"
-"elo".length
+// = > "hel"
+"hel".length
 // => 3
