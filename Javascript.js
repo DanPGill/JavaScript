@@ -9,3 +9,5 @@ function lastNameFirstName(firstName, lastName){
 console.log(lastName + ", " + firstName);
 }
 lastNameFirstName("Richard", "Gill");
+var firstName = "Richard";
+console.log(firstName.length);
