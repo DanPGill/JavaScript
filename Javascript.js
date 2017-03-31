@@ -12,7 +12,9 @@ lastNameFirstName("Richard", "Gill");
 var firstName = "Richard";
 console.log(firstName.length);
 var people = ["Jack", "John", "James"];
-console.log(people[0] + "\n" + people[1] + "\n" + people[2]);
+for (i=0; i<people.length; i++) {
+	console.log(people[i] + "\n");
+}
 function noFirstLetter(name){
 var noFirst = name.substr(1);
 return noFirst;
