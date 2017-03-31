@@ -13,7 +13,7 @@ var firstName = "Richard";
 console.log(firstName.length);
 var people = ["Jack", "John", "James"];
 for (i=0; i<people.length; i++) {
-	console.log(people[i] + "\n");
+	console.log(people[i]);
 }
 function noFirstLetter(name){
 var noFirst = name.substr(1);
