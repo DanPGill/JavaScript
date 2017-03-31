@@ -18,3 +18,14 @@ var noFirst = name.substr(1);
 return noFirst;
 }
 console.log(noFirstLetter("Daniel"));
+function noFirstLetterJ(name){
+var noFirst = name.substr(1);
+if(name.charAt(0) == "J"){
+return noFirst;
+}
+else {
+return name
+}
+};
+console.log(noFirstLetterJ("John"));
+console.log(noFirstLetterJ("Daniel"));
